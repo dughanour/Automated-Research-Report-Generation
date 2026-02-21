@@ -1,0 +1,8 @@
+langchain
+langchain-community
+langgraph
+fastapi
+streamlit
+uvicorn
+python-dotenv
+structlog
