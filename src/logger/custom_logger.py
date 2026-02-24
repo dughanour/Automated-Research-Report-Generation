@@ -70,6 +70,7 @@ class CustomLogger:
         """
         return structlog.get_logger(os.path.basename(name))
 
+
 if __name__ == "__main__":
     logger = CustomLogger().get_logger(__file__)
     logger.info("User uploaded a file", user_id=123, filename="report.pdf")
