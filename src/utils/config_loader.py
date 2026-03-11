@@ -3,9 +3,8 @@ import yaml
 import json
 from pathlib import Path
 from src.exceptions.custom_exception import CustomException
-from src.logger.custom_logger import CustomLogger
+from src.logger import GLOBAL_LOGGER as log
 
-log = CustomLogger().get_logger(__file__)
 
 def _project_root_dir() -> Path:
     """

@@ -16,15 +16,29 @@ llm:
     provider: "openai"
     model_name: "gpt-4o-mini"
     temperature: 0
+  
+  ollama:
+    provider: "ollama"
+    model_name: "llama3.2:latest"
+    temperature: 0
+
+# Embedding configuration
+embedding_model:
+  google:
+   provider: "google"
+   model_name: "models/text-embedding-004"
+
+  openai:
+   provider: "openai"
+   model_name: "text-embedding-3-small"
+
+  ollama:
+   provider: "ollama"
+   model_name: "nomic-embed-text"
 
 # Database configuration
 # astra_db:
 #   collection_name: "research_reports"
-
-# Embedding configuration
-# embedding_model:
-#   provider: "google"
-#   model_name: "models/text-embedding-004"
 
 # Retrieval configuration
 # retriever:

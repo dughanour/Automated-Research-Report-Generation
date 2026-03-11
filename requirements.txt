@@ -1,8 +1,17 @@
 langchain
+langchain-core
 langchain-community
+langchain-groq
+langchain-google-genai
+langchain-openai
+langchain-ollama
+langchain-chroma
+langchain-nomic
 langgraph
 fastapi
 streamlit
 uvicorn
 python-dotenv
 structlog
+annotated-types
+jsonpatch
